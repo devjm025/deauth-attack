@@ -5,8 +5,10 @@ CONFIG -= qt
 LIBS += -lpcap
 
 SOURCES += \
+        attack.cpp \
         mac.cpp \
         main.cpp
 
 HEADERS += \
+    attack.h \
     mac.h
